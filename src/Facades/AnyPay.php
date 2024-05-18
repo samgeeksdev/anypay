@@ -7,7 +7,6 @@ class AnyPay extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        //test
-         return 'anypay';
+          return 'anypay';
     }
 }
