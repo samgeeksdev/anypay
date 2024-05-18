@@ -1,0 +1,27 @@
+
+{
+    "name": "samgeeksdev/anypay",
+    "description": "allinone payment ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "samgeeks",
+            "email": "samgeeks7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "samgeeksdev\\AnyPay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "samgeeksdev\\AnyPay\\PaytoServiceProvider"
+            ]
+        }
+    }
+}
