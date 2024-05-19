@@ -6,7 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class AnyPayServiceProvider extends ServiceProvider
 {
-    //l
     /**
      * Register any application services.
      *
@@ -14,7 +13,7 @@ class AnyPayServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('payto', function ($app) {
+        $this->app->singleton('anypay', function ($app) {
             return new AnyPay();
         });
     }
