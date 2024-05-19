@@ -3,7 +3,7 @@
         'name' => 'samgeeksdev/anypay',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3932f553a43b2b9438c73c341ee1eb37be31b28a',
+        'reference' => 'c1bbc9f6ffd92fd594208f7b291c780f8c8d76eb',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'samgeeksdev/anypay' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3932f553a43b2b9438c73c341ee1eb37be31b28a',
+            'reference' => 'c1bbc9f6ffd92fd594208f7b291c780f8c8d76eb',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
