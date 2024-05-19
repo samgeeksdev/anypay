@@ -2,12 +2,13 @@
 
 namespace samgeeksdev\AnyPay;
 
-class AnyPay
+
+ class AnyPay
 {
 
-   
-   public function index(){
+   public function test()
+   {
       //
-    return 'hi';
+      return 'anypay';
    }
 }
