@@ -1,27 +1,128 @@
-
 {
-    "name": "Samgeeksdev/anypay",
-    "description": "allinone payment ",
+    "name": "samgeeksdev/anypay",
     "type": "library",
+    "description": "Laravel Anypay Gateway Integration Package",
+    "keywords": [
+        "samgeeksdev",
+        "gateway",
+        "bank",
+        "Anypay",
+        "Anypay gateway",
+        "laravel Anypay package",
+        "laravel Anypay gateway",
+        "iranKish Anypay gateway",
+        "laravel iranKish package",
+        "laravel iranKish",
+        "irankish",
+        "jahanPay Anypay gateway",
+        "laravel jahanPay package",
+        "laravel jahanPay",
+        "jahanpay",
+        "jibit Anypay gateway",
+        "laravel jibit package",
+        "laravel jibit",
+        "jibit",
+        "mellat Anypay gateway",
+        "laravel mellat package",
+        "laravel mellat",
+        "mellat",
+        "parsian Anypay gateway",
+        "laravel parsian package",
+        "laravel parsian",
+        "parsian",
+        "pasargad Anypay gateway",
+        "laravel pasargad package",
+        "laravel pasargad",
+        "pasargad",
+        "pay Anypay gateway",
+        "laravel pay package",
+        "laravel pay",
+        "pay",
+        "payline Anypay gateway",
+        "laravel payline package",
+        "laravel payline",
+        "payline",
+        "sadad Anypay gateway",
+        "laravel sadad package",
+        "laravel sadad",
+        "sadad",
+        "saderat Anypay gateway",
+        "laravel saderat package",
+        "laravel saderat",
+        "saderat",
+        "saman Anypay gateway",
+        "laravel saman package",
+        "laravel saman",
+        "saman",
+        "zarinpal Anypay gateway",
+        "laravel zarinpal package",
+        "laravel zarinpal",
+        "zarinpal",
+        "shaparak Anypay gateway",
+        "laravel shaparak package",
+        "laravel shaparak",
+        "shaparak",
+        "meli Anypay gateway",
+        "laravel meli package",
+        "laravel meli",
+        "meli",
+        "laravel melli bank Anypay package",
+        "melli",
+        "paypal Anypay gateway",
+        "laravel paypal package",
+        "laravel paypal",
+        "paypal"
+    ],
+    "homepage": "https://github.com/samgeeksdev/anypay",
     "license": "MIT",
     "authors": [
         {
-            "name": "samgeeks",
-            "email": "samgeeks7@gmail.com"
+            "name": "Mahdi Khanzadi",
+            "email": "khanzadimahdi@gmail.com",
+            "homepage": "https://github.com/samgeeksdev",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.2",
+        "illuminate/broadcasting": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "samgeeksdev/multipay": "^1.0"
+    },
+    "suggest": {
+        "ext-soap": "Needed to support some drivers that required SOAP"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.0|^4.0|^5.0|^6.0|^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
     "autoload": {
         "psr-4": {
-            "samgeeksdev\\AnyPay\\": "src/"
+            "Samgeeksdev\\Anypay\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Samgeeksdev\\Anypay\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Samgeeksdev\\Anypay\\AnyPayServiceProvider"
-            ]
+                "Samgeeksdev\\Anypay\\Provider\\AnypayServiceProvider"
+            ],
+            "aliases": {
+                "Anypay": "Samgeeksdev\\Anypay\\Facade\\Anypay"
+            }
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
