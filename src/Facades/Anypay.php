@@ -3,7 +3,7 @@
 namespace Samgeeksdev\Anypay\Facades;
 
  
-class AnyPay extends \Illuminate\Support\Facades\Facade
+class Anypay extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
