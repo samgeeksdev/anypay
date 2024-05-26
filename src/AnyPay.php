@@ -785,4 +785,7 @@ class Anypay
                 break;
         }
     }
+    public function test(){
+        return 'hellow world';
+    }
 }
