@@ -99,12 +99,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Samgeeksdev\\Anypay\\": "src"
+            "samgeeksdev\\Anypay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Samgeeksdev\\Anypay\\Tests\\": "tests"
+            "samgeeksdev\\Anypay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -115,10 +115,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Samgeeksdev\\Anypay\\Provider\\AnypayServiceProvider"
+                "samgeeksdev\\Anypay\\Provider\\AnypayServiceProvider"
             ],
             "aliases": {
-                "Anypay": "Samgeeksdev\\Anypay\\Facade\\Anypay"
+                "Anypay": "samgeeksdev\\Anypay\\Facade\\Anypay"
             }
         }
     },
