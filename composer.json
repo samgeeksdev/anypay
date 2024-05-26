@@ -2,6 +2,8 @@
     "name": "samgeeksdev/anypay",
     "type": "library",
     "description": "PHP Payment Gateway Integration Package",
+    "minimum-stability": "dev",
+
    
     "homepage": "https://github.com/samgeeksdev/anypay",
     "license": "MIT",
