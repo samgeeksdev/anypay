@@ -1,15 +1,15 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Toman;
+namespace Samgeeksdev\Anypay\Drivers\Toman;
 
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\Receipt;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\Receipt;
 use Illuminate\Support\Facades\Http;
-use Samgeeksdev\Multipay\RedirectionForm;
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Request;
+use Samgeeksdev\Anypay\RedirectionForm;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Request;
 
 class Toman extends Driver
 {

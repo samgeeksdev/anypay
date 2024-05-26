@@ -1,16 +1,16 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Behpardakht;
+namespace Samgeeksdev\Anypay\Drivers\Behpardakht;
 
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\Receipt;
-use Samgeeksdev\Multipay\Request;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\Receipt;
+use Samgeeksdev\Anypay\Request;
 use Carbon\Carbon;
-use Samgeeksdev\Multipay\RedirectionForm;
+use Samgeeksdev\Anypay\RedirectionForm;
 use SoapClient;
 
 class Behpardakht extends Driver

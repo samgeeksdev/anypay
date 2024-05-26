@@ -1,15 +1,15 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Paypal;
+namespace Samgeeksdev\Anypay\Drivers\Paypal;
 
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\Receipt;
-use Samgeeksdev\Multipay\RedirectionForm;
-use Samgeeksdev\Multipay\Request;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\Receipt;
+use Samgeeksdev\Anypay\RedirectionForm;
+use Samgeeksdev\Anypay\Request;
 
 class Paypal extends Driver
 {

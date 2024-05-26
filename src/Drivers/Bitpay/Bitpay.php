@@ -1,15 +1,15 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Bitpay;
+namespace Samgeeksdev\Anypay\Drivers\Bitpay;
 
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\Receipt;
-use Samgeeksdev\Multipay\RedirectionForm;
-use Samgeeksdev\Multipay\Request;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\Receipt;
+use Samgeeksdev\Anypay\RedirectionForm;
+use Samgeeksdev\Anypay\Request;
 
 class Bitpay extends Driver
 {
@@ -46,7 +46,7 @@ class Bitpay extends Driver
     /**
      * @return string
      *
-     * @throws \Samgeeksdev\Multipay\Exceptions\PurchaseFailedException
+     * @throws \Samgeeksdev\Anypay\Exceptions\PurchaseFailedException
      */
     public function purchase()
     {
@@ -76,7 +76,7 @@ class Bitpay extends Driver
     }
 
     /**
-     * @return \Samgeeksdev\Multipay\RedirectionForm
+     * @return \Samgeeksdev\Anypay\RedirectionForm
      */
     public function pay(): RedirectionForm
     {
@@ -88,7 +88,7 @@ class Bitpay extends Driver
     /**
      * @return ReceiptInterface
      *
-     * @throws \Samgeeksdev\Multipay\Exceptions\InvalidPaymentException
+     * @throws \Samgeeksdev\Anypay\Exceptions\InvalidPaymentException
      */
     public function verify(): ReceiptInterface
     {

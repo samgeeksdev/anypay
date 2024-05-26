@@ -1,9 +1,9 @@
 <?php
 
-namespace Samgeeksdev\Multipay;
+namespace Samgeeksdev\Anypay;
 
 use Ramsey\Uuid\Uuid;
-use Samgeeksdev\Multipay\Traits\HasDetail;
+use Samgeeksdev\Anypay\Traits\HasDetail;
 
 class Invoice
 {

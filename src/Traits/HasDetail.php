@@ -1,6 +1,6 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Traits;
+namespace Samgeeksdev\Anypay\Traits;
 
 trait HasDetail
 {

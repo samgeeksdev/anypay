@@ -1,8 +1,8 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Contracts;
+namespace Samgeeksdev\Anypay\Contracts;
 
-use Samgeeksdev\Multipay\RedirectionForm;
+use Samgeeksdev\Anypay\RedirectionForm;
 
 interface DriverInterface
 {

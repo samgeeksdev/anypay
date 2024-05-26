@@ -1,6 +1,6 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Exceptions;
+namespace Samgeeksdev\Anypay\Exceptions;
 
 class InvoiceNotFoundException extends \Exception
 {

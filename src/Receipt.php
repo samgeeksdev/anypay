@@ -1,9 +1,9 @@
 <?php
 
-namespace Samgeeksdev\Multipay;
+namespace Samgeeksdev\Anypay;
 
-use Samgeeksdev\Multipay\Abstracts\Receipt as ReceiptAbstract;
-use Samgeeksdev\Multipay\Traits\HasDetail;
+use Samgeeksdev\Anypay\Abstracts\Receipt as ReceiptAbstract;
+use Samgeeksdev\Anypay\Traits\HasDetail;
 
 class Receipt extends ReceiptAbstract
 {

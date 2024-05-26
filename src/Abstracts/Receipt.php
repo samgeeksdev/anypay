@@ -1,9 +1,9 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Abstracts;
+namespace Samgeeksdev\Anypay\Abstracts;
 
 use Carbon\Carbon;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
 
 abstract class Receipt implements ReceiptInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Contracts;
+namespace Samgeeksdev\Anypay\Contracts;
 
 use Carbon\Carbon;
 

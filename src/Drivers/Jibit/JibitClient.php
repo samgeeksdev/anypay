@@ -1,11 +1,11 @@
 <?php
-namespace Samgeeksdev\Multipay\Drivers\Jibit;
+namespace Samgeeksdev\Anypay\Drivers\Jibit;
 
 use chillerlan\SimpleCache\CacheException;
 use chillerlan\SimpleCache\CacheOptions;
 use chillerlan\SimpleCache\FileCache;
 use Psr\SimpleCache\InvalidArgumentException;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
 
 class JibitClient
 {

@@ -1,13 +1,13 @@
 <?php
-namespace Samgeeksdev\Multipay\Drivers\Jibit;
+namespace Samgeeksdev\Anypay\Drivers\Jibit;
 
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\RedirectionForm;
-use Samgeeksdev\Multipay\Receipt;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\RedirectionForm;
+use Samgeeksdev\Anypay\Receipt;
 
 class Jibit extends Driver
 {

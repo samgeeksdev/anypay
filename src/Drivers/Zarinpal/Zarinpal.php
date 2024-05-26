@@ -1,18 +1,18 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Zarinpal;
+namespace Samgeeksdev\Anypay\Drivers\Zarinpal;
 
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Contracts\DriverInterface;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Exceptions\PurchaseFailedException;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Drivers\Zarinpal\Strategies\Normal;
-use Samgeeksdev\Multipay\Drivers\Zarinpal\Strategies\Sandbox;
-use Samgeeksdev\Multipay\Drivers\Zarinpal\Strategies\Zaringate;
-use Samgeeksdev\Multipay\Exceptions\DriverNotFoundException;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\RedirectionForm;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Contracts\DriverInterface;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Exceptions\PurchaseFailedException;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Drivers\Zarinpal\Strategies\Normal;
+use Samgeeksdev\Anypay\Drivers\Zarinpal\Strategies\Sandbox;
+use Samgeeksdev\Anypay\Drivers\Zarinpal\Strategies\Zaringate;
+use Samgeeksdev\Anypay\Exceptions\DriverNotFoundException;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\RedirectionForm;
 
 class Zarinpal extends Driver
 {

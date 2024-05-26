@@ -1,8 +1,8 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Traits;
+namespace Samgeeksdev\Anypay\Traits;
 
-use Samgeeksdev\Multipay\EventEmitter;
+use Samgeeksdev\Anypay\EventEmitter;
 
 trait HasPaymentEvents
 {

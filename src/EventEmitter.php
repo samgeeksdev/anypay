@@ -1,6 +1,6 @@
 <?php
 
-namespace Samgeeksdev\Multipay;
+namespace Samgeeksdev\Anypay;
 
 class EventEmitter
 {

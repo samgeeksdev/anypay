@@ -1,8 +1,8 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Traits;
+namespace Samgeeksdev\Anypay\Traits;
 
-use Samgeeksdev\Multipay\RedirectionForm;
+use Samgeeksdev\Anypay\RedirectionForm;
 
 trait InteractsWithRedirectionForm
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Pasargad;
+namespace Samgeeksdev\Anypay\Drivers\Pasargad;
 
 use GuzzleHttp\Client;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\Receipt;
-use Samgeeksdev\Multipay\Abstracts\Driver;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Exceptions\InvalidPaymentException;
-use Samgeeksdev\Multipay\Drivers\Pasargad\Utils\RSAProcessor;
-use Samgeeksdev\Multipay\RedirectionForm;
-use Samgeeksdev\Multipay\Request;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\Receipt;
+use Samgeeksdev\Anypay\Abstracts\Driver;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Exceptions\InvalidPaymentException;
+use Samgeeksdev\Anypay\Drivers\Pasargad\Utils\RSAProcessor;
+use Samgeeksdev\Anypay\RedirectionForm;
+use Samgeeksdev\Anypay\Request;
 use DateTimeZone;
 use DateTime;
 

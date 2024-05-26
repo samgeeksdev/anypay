@@ -1,8 +1,8 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Drivers\Pasargad\Utils;
+namespace Samgeeksdev\Anypay\Drivers\Pasargad\Utils;
 
-use Samgeeksdev\Multipay\Drivers\Pasargad\Utils\RSA;
+use Samgeeksdev\Anypay\Drivers\Pasargad\Utils\RSA;
 
 class RSAProcessor
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Samgeeksdev\Multipay\Abstracts;
+namespace Samgeeksdev\Anypay\Abstracts;
 
-use Samgeeksdev\Multipay\Contracts\DriverInterface;
-use Samgeeksdev\Multipay\Contracts\ReceiptInterface;
-use Samgeeksdev\Multipay\Invoice;
-use Samgeeksdev\Multipay\RedirectionForm;
+use Samgeeksdev\Anypay\Contracts\DriverInterface;
+use Samgeeksdev\Anypay\Contracts\ReceiptInterface;
+use Samgeeksdev\Anypay\Invoice;
+use Samgeeksdev\Anypay\RedirectionForm;
 
 abstract class Driver implements DriverInterface
 {
