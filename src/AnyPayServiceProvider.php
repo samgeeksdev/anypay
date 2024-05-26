@@ -1,10 +1,10 @@
 <?php
 
-namespace samgeeksdev\AnyPay;
+namespace Samgeeksdev\Anypay;
 
 use Illuminate\Support\ServiceProvider;
 
-class AnyPayServiceProvider extends ServiceProvider
+class AnypayServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
@@ -14,7 +14,7 @@ class AnyPayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('anypay', function ($app) {
-            return new AnyPay();
+            return new Anypay();
         });
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace samgeeksdev\AnyPay\Facades;
+namespace Samgeeksdev\Anypay\Facades;
 
  
 class AnyPay extends \Illuminate\Support\Facades\Facade
