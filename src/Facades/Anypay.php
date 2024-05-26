@@ -7,6 +7,7 @@ class Anypay extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-         return 'anypay';
+        // Replace 'elanak' with the name of the binding you set in the register method of your service provider
+        return 'anypay';
     }
 }
