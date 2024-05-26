@@ -19,6 +19,10 @@ use Samgeeksdev\Multipay\Traits\InteractsWithRedirectionForm;
 
 class Anypay
 {
+    public function test(){
+        return 'hellow world';
+    }
+    
     use InteractsWithRedirectionForm;
     use HasPaymentEvents;
 
@@ -406,7 +410,7 @@ class Anypay
         try {
             $paymentConfig = $this->loadPaymentConfig();
 
-            $payment = new Payment($paymentConfig);
+            $payment = new Anypay($paymentConfig);
 
             $invoice = (new Invoice)->amount($amount);
 
@@ -785,7 +789,5 @@ class Anypay
                 break;
         }
     }
-    public function test(){
-        return 'hellow world';
-    }
+  
 }

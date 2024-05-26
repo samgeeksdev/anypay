@@ -3,8 +3,6 @@
     "type": "library",
     "description": "PHP Payment Gateway Integration Package",
     "minimum-stability": "dev",
-
-   
     "homepage": "https://github.com/samgeeksdev/anypay",
     "license": "MIT",
     "authors": [
@@ -28,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Samgeeksdev\\Anypay\\": "src"
+            "Samgeeksdev\\Anypay\\": "src/"
         }
     },
     "autoload-dev": {
@@ -43,5 +41,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samgeeksdev\\Elanak\\ElanakServiceProvider"
+            ]
+        }
     }
 }
