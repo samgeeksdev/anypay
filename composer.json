@@ -73,7 +73,6 @@
         "laravel paypal",
         "paypal"
     ],
-    "minimum-stability": "dev",
     "homepage": "https://github.com/samgeeksdev/anypay",
     "license": "MIT",
     "authors": [
