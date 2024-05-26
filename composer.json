@@ -1,6 +1,6 @@
 
 {
-    "name": "samgeeksdev/anypay",
+    "name": "Samgeeksdev/anypay",
     "description": "allinone payment ",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "samgeeksdev\\AnyPay\\AnyPayServiceProvider"
+                "Samgeeksdev\\Anypay\\AnyPayServiceProvider"
             ]
         }
     }
