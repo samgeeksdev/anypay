@@ -382,7 +382,7 @@ class Anypay
         }
     }
    
-    public function Payment(string $gateway, int $amount, array $config): JsonResponse
+    public function payWith(string $gateway, int $amount, array $config): JsonResponse
     {
         try {
             $paymentConfig = $this->loadPaymentConfig();
