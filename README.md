@@ -66,8 +66,20 @@ Then fill the credentials for that gateway in the drivers array.
     ...
 ]
 ```
-
 ## How to use
+
+- ###### `payWith`: create driver on the fly
+
+  ```php
+  // master and main usage
+  use samgeeksdev\Anypay\Facade\Anypay;
+  ...
+  
+  // Purchase (we set invoice to null).
+  Anypay::payWith($gateway, $amount,  $credentials);
+   
+   ```
+
 
 your `Invoice` holds your Anypay details, so initially we'll talk about `Invoice` class. 
 
@@ -397,51 +409,47 @@ class MyDriver extends Driver
   );
   ```
 
-- ###### `payWith`: create driver on the fly
 
-  ```php
- Anypay::payWith($gateway, $amount,  $credentials);
 
-  ...
   
  
  
-- [asanpardakht](https://asanpardakht.ir/) :heavy_check_mark:
-- [aqayepardakht](https://aqayepardakht.ir/) :heavy_check_mark:
-- [atipay](https://www.atipay.net/) :heavy_check_mark:
-- [azkiVam (Installment Anypay)](https://www.azkivam.com/) :heavy_check_mark:
-- [behpardakht (mellat)](http://www.behpardakht.com/) :heavy_check_mark:
-- [bitpay](https://bitpay.ir/) :heavy_check_mark:
-- [digipay](https://www.mydigipay.com/) :heavy_check_mark:
-- [etebarino (Installment Anypay)](https://etebarino.com/) :heavy_check_mark:
-- [fanavacard](https://www.fanava.com/) :heavy_check_mark:
-- [idpay](https://idpay.ir/) :heavy_check_mark:
-- [irankish](http://irankish.com/) :heavy_check_mark:
-- [local](#local-driver) :heavy_check_mark:
-- [jibit](https://jibit.ir/) :heavy_check_mark:
-- [nextpay](https://nextpay.ir/) :heavy_check_mark:
-- [omidpay](https://omidAnypay.ir/) :heavy_check_mark:
-- [parsian](https://www.pec.ir/) :heavy_check_mark:
-- [pasargad](https://bpi.ir/) :heavy_check_mark:
-- [payir](https://pay.ir/) :heavy_check_mark:
-- [payfa](https://payfa.com/) :heavy_check_mark:
+- [asanpardakht](https://asanpardakht.ir/) |created
+- [aqayepardakht](https://aqayepardakht.ir/) |created
+- [atipay](https://www.atipay.net/) |created
+- [azkiVam (Installment Anypay)](https://www.azkivam.com/) |created
+- [behpardakht (mellat)](http://www.behpardakht.com/) |created
+- [bitpay](https://bitpay.ir/) |created
+- [digipay](https://www.mydigipay.com/) |created
+- [etebarino (Installment Anypay)](https://etebarino.com/) |created
+- [fanavacard](https://www.fanava.com/) |created
+- [idpay](https://idpay.ir/) |created
+- [irankish](http://irankish.com/) |created
+- [local](#local-driver) |created
+- [jibit](https://jibit.ir/) |created
+- [nextpay](https://nextpay.ir/) |created
+- [omidpay](https://omidAnypay.ir/) |created
+- [parsian](https://www.pec.ir/) |created
+- [pasargad](https://bpi.ir/) |created
+- [payir](https://pay.ir/) |created
+- [payfa](https://payfa.com/) |created
 - [paypal](http://www.paypal.com/) (will be added soon in next version)
-- [payping](https://www.payping.ir/) :heavy_check_mark:
-- [paystar](http://paystar.ir/) :heavy_check_mark:
-- [poolam](https://poolam.ir/) :heavy_check_mark:
-- [rayanpay](https://rayanpay.com/) :heavy_check_mark:
-- [sadad (melli)](https://sadadpsp.ir/) :heavy_check_mark:
-- [saman](https://www.sep.ir) :heavy_check_mark:
-- [sep (saman electronic Anypay) Keshavarzi & Saderat](https://www.sep.ir) :heavy_check_mark:
-- [sepehr (saderat)](https://www.sepehrpay.com/) :heavy_check_mark:
-- [sepordeh](https://sepordeh.com/) :heavy_check_mark:
-- [sizpay](https://www.sizpay.ir/) :heavy_check_mark:
-- [toman](https://tomanpay.net/) :heavy_check_mark:
-- [vandar](https://vandar.io/) :heavy_check_mark:
-- [walleta (Installment Anypay)](https://walleta.ir/) :heavy_check_mark:
-- [yekpay](https://yekpay.com/) :heavy_check_mark:
-- [zarinpal](https://www.zarinpal.com/) :heavy_check_mark:
-- [zibal](https://www.zibal.ir/) :heavy_check_mark:
+- [payping](https://www.payping.ir/) |created
+- [paystar](http://paystar.ir/) |created
+- [poolam](https://poolam.ir/) |created
+- [rayanpay](https://rayanpay.com/) |created
+- [sadad (melli)](https://sadadpsp.ir/) |created
+- [saman](https://www.sep.ir) |created
+- [sep (saman electronic Anypay) Keshavarzi & Saderat](https://www.sep.ir) |created
+- [sepehr (saderat)](https://www.sepehrpay.com/) |created
+- [sepordeh](https://sepordeh.com/) |created
+- [sizpay](https://www.sizpay.ir/) |created
+- [toman](https://tomanpay.net/) |created
+- [vandar](https://vandar.io/) |created
+- [walleta (Installment Anypay)](https://walleta.ir/) |created
+- [yekpay](https://yekpay.com/) |created
+- [zarinpal](https://www.zarinpal.com/) |created
+- [zibal](https://www.zibal.ir/) |created
  
 
   ```
